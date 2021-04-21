@@ -32,6 +32,7 @@ public class FunctionDemo {
     private static void test3() {
         int[] arr = {1,2,3,4};
         // rollback commit
+        // rollback
         System.out.println(arr.toString());
     }
 
