@@ -31,7 +31,8 @@ public class FunctionDemo {
 
     private static void test3() {
         int[] arr = {1,2,3,4};
-        System.out.println(arr.indexOf());
+        // fix commit
+        System.out.println(arr.toString());
     }
 
     private static void test2() {
