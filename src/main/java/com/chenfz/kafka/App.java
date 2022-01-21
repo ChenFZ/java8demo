@@ -1,4 +1,4 @@
-package kafka;
+package com.chenfz.kafka;
 
 /**
  * Hello world!

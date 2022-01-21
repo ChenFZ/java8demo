@@ -8,7 +8,7 @@
  * <author>          <time>          <version>          <desc>
  * 作者姓名           修改时间           版本号              描述
  */
-package functionalprogramming;
+package com.chenfz.functionalprogramming;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -32,7 +32,6 @@ public class FunctionDemo {
     private static void test3() {
         int[] arr = {1,2,3,4};
         // rollback commit
-        // rollback
         System.out.println(arr.toString());
     }
 

@@ -1,4 +1,4 @@
-package kafka;
+package com.chenfz.kafka;
 
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.clients.producer.internals.DefaultPartitioner;
