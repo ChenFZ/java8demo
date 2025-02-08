@@ -10,6 +10,8 @@
  */
 package com.chenfz.functionalprogramming;
 
+import org.apache.commons.lang3.ArrayUtils;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -32,7 +34,8 @@ public class FunctionDemo {
     private static void test3() {
         int[] arr = {1,2,3,4};
         // rollback commit
-        System.out.println(arr.toString());
+        System.out.println(ArrayUtils.toString(arr));
+        System.out.println(ArrayUtils.toString(ArrayUtils.toArray("呵呵","哈哈")));
     }
 
     private static void test2() {
